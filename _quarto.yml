@@ -27,8 +27,10 @@ website:
 
 format:
   html:
+    respect-user-color-scheme: true
     theme:
       light: flatly
       dark: darkly
     css: styles.css
     toc: true
+    include-after-body: includes/go-to-top.html
