@@ -1,10 +1,6 @@
 ---
-<<<<<<< HEAD
 title: "Team"
 title-block: false
-=======
-title: " "
->>>>>>> c9c25136c8f36683ccdd3e83f1391a74a10a43f1
 toc: false
 page-layout: full
 ---
@@ -19,7 +15,17 @@ page-layout: full
 ::: {.professor-layout}
 
 <div class="prof-left">
-  <img src="images/professor1.png" class="prof-photo" alt="Professor">
+  <button class="prof-photo-flip" type="button"
+          aria-label="교수님 사진 뒤집기" aria-pressed="false"
+          onclick="this.classList.toggle('is-flipped'); this.setAttribute('aria-pressed', this.classList.contains('is-flipped'));">
+    <span class="prof-photo-flip-inner">
+      <span class="prof-photo-flip-front">
+        <img src="images/professor1.png" class="prof-photo-base" alt="교수님 사진">
+        <img src="images/professor1_cat.png" class="prof-photo-cat" alt="">
+      </span>
+      <img src="images/professor2.png" class="prof-photo-flip-back" alt="교수님의 다른 사진">
+    </span>
+  </button>
 </div>
 
 <div class="prof-right">
@@ -57,49 +63,12 @@ page-layout: full
 
 <div class="member-grid">
 
+<!-- Open Each Person Card -->
 <div class="member-card">
-<img src="images/Nam.jpeg" class="member-photo" alt="Hyekyeong Nam">
-<div class="member-info">
-<h3>Hyekyeong Nam</h3>
-<div class="member-role">M.A. Student</div>
-<div class="badge-container">
-<span class="badge">Spatial Data Science</span>
+<div class="lee-photo-swap">
+  <img src="images/Jeong.jpg" class="lee-photo-base" alt="Dahyun Lee">
+  <img src="images/Jeong_hall.jpg" class="lee-photo-hover" alt="">
 </div>
-
-<div class="member-icons">
-<a href="https://mail.google.com/mail/?view=cm&fs=1&to=nhk675@snu.ac.kr" target="_blank" aria-label="Email">
-<img src="images/mail2.png" class="member-icon" alt="Email">
-</a>
-<a href=" " target="_blank" aria-label="Homepage">
-<img src="images/homepage.png" class="member-icon" alt="Homepage">
-</a>
-</div>
-</div>
-</div>
-
-<div class="member-card">
-<img src="images/Kim.png" class="member-photo" alt="Woohyung Kim">
-<div class="member-info">
-<h3>Woohyung Kim</h3>
-<div class="member-role">M.A. Student</div>
-<div class="badge-container">
-<span class="badge">Spatial Data Science</span>
-<span class="badge">GeoAI</span>
-</div>
-
-<div class="member-icons">
-<a href="https://mail.google.com/mail/?view=cm&fs=1&to=whk3423@snu.ac.kr" target="_blank" aria-label="Email">
-<img src="images/mail2.png" class="member-icon" alt="Email">
-</a>
-<a href="https://geowhk.github.io/" target="_blank" aria-label="Homepage">
-<img src="images/homepage.png" class="member-icon" alt="Homepage">
-</a>
-</div>
-</div>
-</div>
-
-<div class="member-card">
-<img src="images/Jeong.jpeg" class="member-photo" alt="Minseop Jeong">
 <div class="member-info">
 <h3>Minseop Jeong</h3>
 <div class="member-role">M.A. Student</div>
@@ -117,9 +86,13 @@ page-layout: full
 </div>
 </div>
 </div>
+<!-- Close Each Person Card -->
 
 <div class="member-card">
-<img src="images/Park.jpeg" class="member-photo" alt="Seowoo Park">
+<div class="lee-photo-swap">
+  <img src="images/Park.jpeg" class="lee-photo-base" alt="Dahyun Lee">
+  <img src="images/Park_hall.png" class="lee-photo-hover" alt="">
+</div>
 <div class="member-info">
 <h3>Seowoo Park</h3>
 <div class="member-role">M.A. Student</div>
@@ -139,9 +112,11 @@ page-layout: full
 </div>
 </div>
 
-<<<<<<< HEAD
 <div class="member-card">
-<img src="images/Yun.jpg" class="member-photo" alt="Sori Yun">
+<div class="lee-photo-swap">
+  <img src="images/Yun.jpg" class="lee-photo-base" alt="Dahyun Lee">
+  <img src="images/Yun_hall.jpg" class="lee-photo-hover" alt="">
+</div>
 <div class="member-info">
 <h3>Sori Yun</h3>
 <div class="member-role">M.A. Student</div>
@@ -161,7 +136,10 @@ page-layout: full
 </div>
 
 <div class="member-card">
-<img src="images/Dai.jpg" class="member-photo" alt="Dai Yifan">
+<div class="lee-photo-swap">
+  <img src="images/Dai.jpg" class="lee-photo-base" alt="Dahyun Lee">
+  <img src="images/Dai_hall.png" class="lee-photo-hover" alt="">
+</div>
 <div class="member-info">
 <h3>Dai Yifan</h3>
 <div class="member-role">M.A. Student</div>
@@ -181,16 +159,41 @@ page-layout: full
 </div>
 </div>
 
-=======
->>>>>>> c9c25136c8f36683ccdd3e83f1391a74a10a43f1
+<div class="member-card">
+<div class="lee-photo-swap">
+  <img src="images/Lee.jpg" class="lee-photo-base" alt="Dahyun Lee">
+  <img src="images/Lee_hall.jpg" class="lee-photo-hover" alt="">
 </div>
+<div class="member-info">
+<h3>Dahyun Lee</h3>
+<div class="member-role">M.A. Student</div>
+<div class="badge-container">
+<span class="badge">Spatial Data Science</span>
+<span class="badge">Geography Education</span>
+</div>
+
+<div class="member-icons">
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=ldh0821@snu.ac.kr" target="_blank" aria-label="Email">
+<img src="images/mail2.png" class="member-icon" alt="Email">
+</a>
+<a href="https://blog.naver.com/all_poem169" target="_blank" aria-label="Homepage">
+<img src="images/homepage.png" class="member-icon" alt="Homepage">
+</a>
+</div>
+</div>
+</div>
+
+
+</div> <!-- close Master Students --> 
 
 ## Alumni
 
 ### Recent Graduates
 
-- **Hyemin Jeon (M.A., 2025)**
 - **Sechang Kim (M.A., 2023)**: Ph.D. Student at University of Washington
+- **Hyemin Jeon (M.A., 2025)**
+- **Hyekyeong Nam (M.A., 2026)**
+- **Woohyung Kim (M.A., 2026)**
 
 
 ## Join Our Lab
