@@ -13,8 +13,14 @@ page-layout: full
 
 <div class="project-item">
 
-<div class="project-logo">
-<img src="images/seoul.png" alt="SNU">
+<div class="project-logo project-logo-snu">
+  <img src="images/seoul.png"
+       alt="SNU"
+       class="snu-logo-light">
+  <img src="images/seoul-1.png"
+       alt=""
+       aria-hidden="true"
+       class="snu-logo-dark">
 </div>
 
 <div class="project-content">

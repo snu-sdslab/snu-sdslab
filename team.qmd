@@ -6,7 +6,32 @@ page-layout: full
 ---
 
 ::: {.team-hero-card}
-![](images/photo_20251119.jpg){.team-hero-img alt="단체사진"}
+
+```{=html}
+<div class="team-hero-slideshow">
+  <img src="images/labpeople1.jpg" class="team-hero-img slide-active" alt="연구실 단체사진 1">
+  <img src="images/labpeople2.png" class="team-hero-img" alt="연구실 단체사진 2">
+  <img src="images/labpeople3.jpg" class="team-hero-img" alt="연구실 단체사진 3">
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const slides = document.querySelectorAll(".team-hero-slideshow .team-hero-img");
+  let currentSlide = 0;
+
+  if (slides.length < 2) return;
+
+  setInterval(function () {
+    slides[currentSlide].classList.remove("slide-active");
+
+    currentSlide = (currentSlide + 1) % slides.length;
+
+    slides[currentSlide].classList.add("slide-active");
+  }, 3000);
+});
+</script>
+```
+
 :::
 
 
@@ -38,7 +63,7 @@ page-layout: full
 🎓 M.A. in Geography Education, Seoul National University  
 🎓 B.A. in Geography Education, Seoul National University  
 
-#### 📖 Research Interests
+#### 📖 **Research Interests**
 - Spatial Data Science  
 - Spatial Data Analysis and Spatial Statistics  
 - Cartography and GeoVisualization  
@@ -141,7 +166,7 @@ page-layout: full
   <img src="images/Dai_hall.png" class="lee-photo-hover" alt="">
 </div>
 <div class="member-info">
-<h3>Dai Yifan</h3>
+<h3>Yifan Dai</h3>
 <div class="member-role">M.A. Student</div>
 <div class="badge-container">
 <span class="badge">GIS</span>
@@ -183,6 +208,29 @@ page-layout: full
 </div>
 </div>
 
+<div class="member-card">
+<div class="lee-photo-swap">
+  <img src="images/KimH.jpg" class="lee-photo-base" alt="Dahyun Lee">
+  <img src="images/KimH_hall.png" class="lee-photo-hover" alt="">
+</div>
+<div class="member-info">
+<h3>Hansung Kim</h3>
+<div class="member-role">M.A. Student</div>
+<div class="badge-container">
+<span class="badge">Spatial Data Science</span>
+<span class="badge">Geography Education</span>
+</div>
+
+<div class="member-icons">
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=gkstjd96@snu.ac.kr" target="_blank" aria-label="Email">
+<img src="images/mail2.png" class="member-icon" alt="Email">
+</a>
+<a href=" " target="_blank" aria-label="Homepage">
+<img src="images/homepage.png" class="member-icon" alt="Homepage">
+</a>
+</div>
+</div>
+</div>
 
 </div> <!-- close Master Students --> 
 
@@ -190,10 +238,10 @@ page-layout: full
 
 ### Recent Graduates
 
-- **Sechang Kim (M.A., 2023)**: Ph.D. Student at University of Washington
-- **Hyemin Jeon (M.A., 2025)**
 - **Hyekyeong Nam (M.A., 2026)**
 - **Woohyung Kim (M.A., 2026)**
+- **Hyemin Jeon (M.A., 2025)**
+- **Sechang Kim (M.A., 2023)**: Ph.D. Student at University of Washington
 
 
 ## Join Our Lab
