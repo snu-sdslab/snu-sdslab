@@ -14,6 +14,36 @@ page-layout: full
 <div class="project-item">
 
 <div class="project-logo project-logo-snu">
+  <img src="images/KERIS_logo.png"
+       alt="SNU"
+       class="snu-logo-light">
+  <img src="images/KERIS_logo.png"
+       alt=""
+       aria-hidden="true"
+       class="snu-logo-dark">
+</div>
+
+<div class="project-content">
+
+<div class="project-title">
+<strong>AI-Leading Teacher Training Program</strong>
+<span class="project-meta"> · 2026</span>
+</div>
+
+<div class="project-desc">
+Participated in the 2026 AI-Leading Teacher Training Program, a nationwide blended (online and in-person) professional development program for elementary and secondary teachers. The program focused on using AI and digital technologies in teaching and learning, with intensive tracks organized by teacher level and subject. Responsible for developing the training materials for the secondary social studies track, including AI-based lesson design and classroom activities.
+</div>
+
+<div class="project-org">
+Organized by: Korea Education and Research Information Service (한국교육학술정보원) </br>
+Ministry of Education (교육부)
+</div>
+</div>
+</div>
+
+<div class="project-item">
+
+<div class="project-logo project-logo-snu">
   <img src="images/seoul.png"
        alt="SNU"
        class="snu-logo-light">
