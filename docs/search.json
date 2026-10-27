@@ -11,14 +11,14 @@
     "href": "team.html#master-students",
     "title": "Team",
     "section": "Master Students",
-    "text": "Master Students\n\n\n\n\n \n\n\n\nMinseop Jeong\n\n\nM.A. Student\n\n\nPopulation Geography\n\n\n     \n\n\n\n\n\n\n \n\n\n\nSeowoo Park\n\n\nM.A. Student\n\n\nSpatial Data Science Remote sensing\n\n\n     \n\n\n\n\n\n \n\n\n\nSori Yun\n\n\nM.A. Student\n\n\nSpatial Data Science\n\n\n     \n\n\n\n\n\n \n\n\n\nDai Yifan\n\n\nM.A. Student\n\n\nGIS Machine Learning\n\n\n     \n\n\n\n\n\n \n\n\n\nDahyun Lee\n\n\nM.A. Student\n\n\nSpatial Data Science Geography Education"
+    "text": "Master Students\n\n\n\n\n \n\n\n\nMinseop Jeong\n\n\nM.A. Student\n\n\nPopulation Geography\n\n\n     \n\n\n\n\n\n\n \n\n\n\nSeowoo Park\n\n\nM.A. Student\n\n\nSpatial Data Science Remote sensing\n\n\n     \n\n\n\n\n\n \n\n\n\nSori Yun\n\n\nM.A. Student\n\n\nSpatial Data Science\n\n\n     \n\n\n\n\n\n \n\n\n\nYifan Dai\n\n\nM.A. Student\n\n\nGIS Machine Learning\n\n\n     \n\n\n\n\n\n \n\n\n\nDahyun Lee\n\n\nM.A. Student\n\n\nSpatial Data Science Geography Education\n\n\n     \n\n\n\n\n\n \n\n\n\nHansung Kim\n\n\nM.A. Student\n\n\nSpatial Data Science Geography Education"
   },
   {
     "objectID": "team.html#alumni",
     "href": "team.html#alumni",
     "title": "Team",
     "section": "Alumni",
-    "text": "Alumni\n\nRecent Graduates\n\nSechang Kim (M.A., 2023): Ph.D. Student at University of Washington\nHyemin Jeon (M.A., 2025)\nHyekyeong Nam (M.A., 2026)\nWoohyung Kim (M.A., 2026)"
+    "text": "Alumni\n\nRecent Graduates\n\nHyekyeong Nam (M.A., 2026)\nWoohyung Kim (M.A., 2026)\nHyemin Jeon (M.A., 2025)\nSechang Kim (M.A., 2023): Ph.D. Student at University of Washington"
   },
   {
     "objectID": "team.html#join-our-lab",
@@ -32,7 +32,7 @@
     "href": "projects.html#section",
     "title": "Projects",
     "section": "2026",
-    "text": "2026\n\n\n\n\n\n\nMicro-Degree Winter Professional Development Program  · 2026\n\n\nParticipated in a collaborative winter professional development program jointly organized by the Seoul National University Learning Sciences Institute and the Seoul Metropolitan Office of Education. The program focused on designing and developing interactive dashboards that can be directly implemented in classroom instruction.\n\n\nOrganized by: Seoul National University Learning Sciences Institute (서울대학교 학습과학연구소)  Seoul Metropolitan Office of Education (서울특별시교육청)"
+    "text": "2026\n\n\n \n\n\n\nMicro-Degree Winter Professional Development Program  · 2026\n\n\nParticipated in a collaborative winter professional development program jointly organized by the Seoul National University Learning Sciences Institute and the Seoul Metropolitan Office of Education. The program focused on designing and developing interactive dashboards that can be directly implemented in classroom instruction.\n\n\nOrganized by: Seoul National University Learning Sciences Institute (서울대학교 학습과학연구소)  Seoul Metropolitan Office of Education (서울특별시교육청)"
   },
   {
     "objectID": "projects.html#section-1",
@@ -95,14 +95,14 @@
     "href": "publications.html#journal-articles",
     "title": "Publications",
     "section": "Journal Articles",
-    "text": "Journal Articles\n\n\n A Professional Development Program for Enhancing Geography Teachers’ AI–Digital Competence Based on the TPACK–DBL Framework  - Development and Application of Interactive Teaching–Learning Web Apps \n\n\n[2025] Sang-Il Lee, Soyoung Lee\n\n\nTPACK-DBL AI–digital competence geography education\n\n\n\n\n An Extension of Migration Effectiveness Indices: Accounting for the Impact of Migration on Population Structure \n\n\n[2025] Sechang Kim, Sang-Il Lee\n\n\n\n\n Development of a programming-based instructional program to enhance digital competency of pre-service social studies teachers \n\n\n[2025] 이상일, 고보경, 고준보, 김세창, 김우형, 임철일\n\n\ndigital competency pre-service teachers social studies education\n\n\n\n\n A Multi-Scale Analysis of Age-Specific Migration Unidirectionality in South Korea \n\n\n[2024] Sang-Il Lee, Soyoung Lee, Sechang Kim\n\n\n인구이동 편향성 연령-특수적 인구이동 유효도 지수 다중스케일\n\n\n\n\n The Variety and Complementarity of Migration Data in South Korea: A Comparison of Resident Register and Register-Based Census Data \n\n\n[2024] Sang-Il Lee, Deaheon Cho\n\n\nmigration data resident register register-based census"
+    "text": "Journal Articles\n\n\n ML-SAS: A Machine-Learning-Based Spatial Autocorrelation Statistic for Mixed-Type Data \n\n\n[2026] Woohyung Kim, Sang-Il Lee\n\n\nmachine-learning-based similarity multivariate and mixed-type data spatial autocorrelation statistic unsupervised random forests\n\n\n\n\n A Professional Development Program for Enhancing Geography Teachers’ AI–Digital Competence Based on the TPACK–DBL Framework  - Development and Application of Interactive Teaching–Learning Web Apps \n\n\n[2025] Sang-Il Lee, Soyoung Lee\n\n\nTPACK-DBL AI–digital competence geography education\n\n\n\n\n An Extension of Migration Effectiveness Indices: Accounting for the Impact of Migration on Population Structure \n\n\n[2025] Sechang Kim, Sang-Il Lee\n\n\nASMEI AWMEI population structure\n\n\n\n\n Development of a programming-based instructional program to enhance digital competency of pre-service social studies teachers \n\n\n[2025] Sang-Il Lee, Bokyung Go, Junbo Koh, Sechang Kim, Woohyung Kim, Cheolil Lim\n\n\ndigital competency pre-service teachers social studies education\n\n\n\n\n A Multi-Scale Analysis of Age-Specific Migration Unidirectionality in South Korea \n\n\n[2024] Sang-Il Lee, Soyoung Lee, Sechang Kim\n\n\nmigration unidirectionality ASMEI multi-scale population redistribution\n\n\n\n\n The Variety and Complementarity of Migration Data in South Korea: A Comparison of Resident Register and Register-Based Census Data \n\n\n[2024] Sang-Il Lee, Deaheon Cho\n\n\nmigration data resident register register-based census"
   },
   {
     "objectID": "publications.html#theses",
     "href": "publications.html#theses",
     "title": "Publications",
     "section": "Theses",
-    "text": "Theses\n\n\n Regionalization of the Seoul Metropolitan Area Using Graph Transformer-Based Representation Learning and Spatially Constrained Clustering \n\n\n[M.A. Thesis, 2025] Heamin Jeon\n\n\n그래프 딥러닝 그래프 트랜스포머\n\n\n\n\n A Study on Internal Migration Modeling based on the Spatial Demographic Perspective: Utilizing Cross-Classified Multilevel Model \n\n\n[M.A. Thesis, 2024] Sechang Kim\n\n\n공간인구학 교차분류 다수준 모형"
+    "text": "Theses\n\n\n Spatiotemporal Structure of Education-Related Travel Patterns of Youth in Seoul  - Applying Flow SSD and Dyadic PCA - \n\n\n[M.A. Thesis, 2026] Hyekyeong Nam\n\n\nyouth mobility spatial interaction private education facilities flow SSD dyadic PCA\n\n\n\n\n Evaluating the Capacity of Large Language Model Representations to Capture Spatial Interaction Structure: A Case Study Using Seoul Living Mobility Data \n\n\n[M.A. Thesis, 2026] Woohyung Kim\n\n\nspatial interaction Large Language Model Seoul Living Mobility Data GeoAI\n\n\n\n\n Regionalization of the Seoul Metropolitan Area Using Graph Transformer-Based Representation Learning and Spatially Constrained Clustering \n\n\n[M.A. Thesis, 2025] Heamin Jeon\n\n\nGraph Deep Learning Graph Transformer Spatially Constrained Clustering Regionalization\n\n\n\n\n A Study on Internal Migration Modeling based on the Spatial Demographic Perspective: Utilizing Cross-Classified Multilevel Model \n\n\n[M.A. Thesis, 2024] Sechang Kim\n\n\nspatial demography internal migration cross-classified multilevel model"
   },
   {
     "objectID": "publications.html#conference-presentations",

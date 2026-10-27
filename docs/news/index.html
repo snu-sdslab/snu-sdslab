@@ -491,31 +491,57 @@ GIS Lab
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
 <!-- SDS LAB: global Go to Top button -->
+
 <button id="sds-go-to-top" type="button" aria-label="Go to top" title="Go to top">
+
   <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+
     <path d="m6 11 6-6 6 6"></path>
+
     <path d="M12 5v14"></path>
+
   </svg>
+
   <span>TOP</span>
+
 </button>
+
 <script>
+
 (function () {
+
   const button = document.getElementById('sds-go-to-top');
+
   if (!button) return;
 
+
+
   function updateVisibility() {
+
     button.classList.toggle('is-visible', window.scrollY > 250);
+
   }
 
+
+
   button.addEventListener('click', function () {
+
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
     window.scrollTo({ top: 0, behavior: reduceMotion ? 'instant' : 'smooth' });
+
   });
 
+
+
   window.addEventListener('scroll', updateVisibility, { passive: true });
+
   updateVisibility();
+
 })();
+
 </script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

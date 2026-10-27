@@ -14,13 +14,30 @@ page-layout: full
 
 <div class="pub-item">
 <div class="pub-title">
+<a href="https://onlinelibrary.wiley.com/doi/10.1111/gean.70062" target="_blank" rel="noopener">
+ML-SAS: A Machine-Learning-Based Spatial Autocorrelation Statistic for Mixed-Type Data 
+</a>
+</div>
+<div class="pub-authors">
+[2026]  Woohyung Kim, Sang-Il Lee
+</div>
+<div class="pub-tags">
+<span class="pub-tag">machine-learning-based similarity</span>
+<span class="pub-tag">multivariate and mixed-type data</span>
+<span class="pub-tag">spatial autocorrelation statistic</span>
+<span class="pub-tag">unsupervised random forests</span>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-title">
 <a href="https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART003271852" target="_blank" rel="noopener">
 A Professional Development Program for Enhancing Geography Teachers’ AI–Digital Competence Based on the TPACK–DBL Framework </br>
 - Development and Application of Interactive Teaching–Learning Web Apps
 </a>
 </div>
 <div class="pub-authors">
-[2025] Sang-Il Lee, Soyoung Lee
+[2025]  Sang-Il Lee, Soyoung Lee
 </div>
 <div class="pub-tags">
 <span class="pub-tag">TPACK-DBL</span>
@@ -36,7 +53,12 @@ An Extension of Migration Effectiveness Indices: Accounting for the Impact of Mi
 </a>
 </div>
 <div class="pub-authors">
-[2025] Sechang Kim, Sang-Il Lee
+[2025]  Sechang Kim, Sang-Il Lee
+</div>
+<div class="pub-tags">
+<span class="pub-tag">ASMEI</span>
+<span class="pub-tag">AWMEI</span>
+<span class="pub-tag">population structure</span>
 </div>
 </div>
 
@@ -47,7 +69,7 @@ Development of a programming-based instructional program to enhance digital comp
 </a>
 </div>
 <div class="pub-authors">
-[2025] 이상일,  고보경,  고준보,  김세창,  김우형,  임철일
+[2025]  Sang-Il Lee, Bokyung Go, Junbo Koh, Sechang Kim, Woohyung Kim, Cheolil Lim
 </div>
 <div class="pub-tags">
 <span class="pub-tag">digital competency</span>
@@ -58,17 +80,18 @@ Development of a programming-based instructional program to enhance digital comp
 
 <div class="pub-item">
 <div class="pub-title">
-<a href="https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART003188332" target="_blank" rel="noopener">
+<a href="http://doi.org/10.22776/kgs.2024.59.5.656" target="_blank" rel="noopener">
 A Multi-Scale Analysis of Age-Specific Migration Unidirectionality in South Korea
 </a>
 </div>
 <div class="pub-authors">
-[2024] Sang-Il Lee, Soyoung Lee, Sechang Kim
+[2024]  Sang-Il Lee, Soyoung Lee, Sechang Kim
 </div>
 <div class="pub-tags">
-<span class="pub-tag">인구이동 편향성</span>
-<span class="pub-tag">연령-특수적 인구이동 유효도 지수</span>
-<span class="pub-tag">다중스케일</span>
+<span class="pub-tag">migration unidirectionality</span>
+<span class="pub-tag">ASMEI</span>
+<span class="pub-tag">multi-scale</span>
+<span class="pub-tag">population redistribution</span>
 </div>
 </div>
 
@@ -94,6 +117,43 @@ A Comparison of Resident Register and Register-Based Census Data
 
 <div class="pub-item">
 <div class="pub-title">
+<a href="https://snu.alma.exlibrisgroup.com/view/action/uresolver.do;jsessionid=7D71356A0282F86F458FC38869A6EDDD.app01.ap01.prod.alma.dc05.hosted.exlibrisgroup.com:1801?operation=resolveService&package_service_id=38890437680002591&institutionId=2591&customerId=2590" target="_blank" rel="noopener">
+Spatiotemporal Structure of Education-Related Travel Patterns of Youth in Seoul </br>
+- Applying Flow SSD and Dyadic PCA -
+</a>
+</div>
+<div class="pub-authors">
+[M.A. Thesis, 2026] Hyekyeong Nam
+</div>
+<div class="pub-tags">
+<span class="pub-tag">youth mobility</span>
+<span class="pub-tag">spatial interaction</span>
+<span class="pub-tag">private education facilities</span>
+<span class="pub-tag">flow SSD</span>
+<span class="pub-tag">dyadic PCA</span>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-title">
+<a href="https://snu.alma.exlibrisgroup.com/view/action/uresolver.do?operation=resolveService&package_service_id=38890437670002591&institutionId=2591&customerId=2590" target="_blank" rel="noopener">
+Evaluating the Capacity of Large Language Model Representations to Capture Spatial Interaction Structure:</br>
+A Case Study Using Seoul Living Mobility Data
+</a>
+</div>
+<div class="pub-authors">
+[M.A. Thesis, 2026] Woohyung Kim
+</div>
+<div class="pub-tags">
+<span class="pub-tag">spatial interaction</span>
+<span class="pub-tag">Large Language Model</span>
+<span class="pub-tag">Seoul Living Mobility Data</span>
+<span class="pub-tag">GeoAI</span>
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-title">
 <a href="https://s-space.snu.ac.kr/handle/10371/229465" target="_blank" rel="noopener">
 Regionalization of the Seoul Metropolitan Area Using Graph Transformer-Based Representation Learning and Spatially Constrained Clustering
 </a>
@@ -102,8 +162,10 @@ Regionalization of the Seoul Metropolitan Area Using Graph Transformer-Based Rep
 [M.A. Thesis, 2025] Heamin Jeon
 </div>
 <div class="pub-tags">
-<span class="pub-tag">그래프 딥러닝</span>
-<span class="pub-tag">그래프 트랜스포머</span>
+<span class="pub-tag">Graph Deep Learning</span>
+<span class="pub-tag">Graph Transformer</span>
+<span class="pub-tag">Spatially Constrained Clustering</span>
+<span class="pub-tag">Regionalization</span>
 </div>
 </div>
 
@@ -117,8 +179,9 @@ A Study on Internal Migration Modeling based on the Spatial Demographic Perspect
 [M.A. Thesis, 2024] Sechang Kim
 </div>
 <div class="pub-tags">
-<span class="pub-tag">공간인구학</span>
-<span class="pub-tag">교차분류 다수준 모형</span>
+<span class="pub-tag">spatial demography</span>
+<span class="pub-tag">internal migration</span>
+<span class="pub-tag">cross-classified multilevel model</span>
 </div>
 </div>
 

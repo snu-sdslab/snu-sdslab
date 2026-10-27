@@ -328,7 +328,28 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="team-hero-card">
-<p><img src="images/photo_20251119.jpg" class="team-hero-img img-fluid" alt="단체사진"></p>
+<div class="team-hero-slideshow">
+  <img src="images/labpeople1.jpg" class="team-hero-img slide-active" alt="연구실 단체사진 1">
+  <img src="images/labpeople2.png" class="team-hero-img" alt="연구실 단체사진 2">
+  <img src="images/labpeople3.jpg" class="team-hero-img" alt="연구실 단체사진 3">
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const slides = document.querySelectorAll(".team-hero-slideshow .team-hero-img");
+  let currentSlide = 0;
+
+  if (slides.length < 2) return;
+
+  setInterval(function () {
+    slides[currentSlide].classList.remove("slide-active");
+
+    currentSlide = (currentSlide + 1) % slides.length;
+
+    slides[currentSlide].classList.add("slide-active");
+  }, 3000);
+});
+</script>
 </div>
 <section id="professor" class="level2">
 <h2 class="anchored" data-anchor-id="professor">Professor</h2>
@@ -343,7 +364,7 @@ ul.task-list li input[type="checkbox"] {
 🎓 M.A.&nbsp;in Geography Education, Seoul National University<br>
 🎓 B.A. in Geography Education, Seoul National University</p>
 <section id="research-interests" class="level4">
-<h4 class="anchored" data-anchor-id="research-interests">📖 Research Interests</h4>
+<h4 class="anchored" data-anchor-id="research-interests">📖 <strong>Research Interests</strong></h4>
 <ul>
 <li>Spatial Data Science<br>
 </li>
@@ -433,7 +454,7 @@ M.A.&nbsp;Student
 </div>
 <div class="member-info">
 <h3 class="anchored">
-Dai Yifan
+Yifan Dai
 </h3>
 <div class="member-role">
 M.A.&nbsp;Student
@@ -465,6 +486,25 @@ M.A.&nbsp;Student
 </div>
 </div>
 </div>
+<div class="member-card">
+<div class="lee-photo-swap">
+<p><img src="images/KimH.jpg" class="lee-photo-base" alt="Dahyun Lee"> <img src="images/KimH_hall.png" class="lee-photo-hover" alt=""></p>
+</div>
+<div class="member-info">
+<h3 class="anchored">
+Hansung Kim
+</h3>
+<div class="member-role">
+M.A.&nbsp;Student
+</div>
+<div class="badge-container">
+<p><span class="badge">Spatial Data Science</span> <span class="badge">Geography Education</span></p>
+</div>
+<div class="member-icons">
+<p><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=gkstjd96@snu.ac.kr" target="_blank" aria-label="Email"> <img src="images/mail2.png" class="member-icon" alt="Email"> </a> <a href=" " target="_blank" aria-label="Homepage"> <img src="images/homepage.png" class="member-icon" alt="Homepage"> </a></p>
+</div>
+</div>
+</div>
 </div>
 <p><!-- close Master Students --></p>
 </section>
@@ -473,10 +513,10 @@ M.A.&nbsp;Student
 <section id="recent-graduates" class="level3">
 <h3 class="anchored" data-anchor-id="recent-graduates">Recent Graduates</h3>
 <ul>
-<li><strong>Sechang Kim (M.A., 2023)</strong>: Ph.D.&nbsp;Student at University of Washington</li>
-<li><strong>Hyemin Jeon (M.A., 2025)</strong></li>
 <li><strong>Hyekyeong Nam (M.A., 2026)</strong></li>
 <li><strong>Woohyung Kim (M.A., 2026)</strong></li>
+<li><strong>Hyemin Jeon (M.A., 2025)</strong></li>
+<li><strong>Sechang Kim (M.A., 2023)</strong>: Ph.D.&nbsp;Student at University of Washington</li>
 </ul>
 </section>
 </section>
@@ -490,31 +530,57 @@ M.A.&nbsp;Student
 
 </main> <!-- /main -->
 <!-- SDS LAB: global Go to Top button -->
+
 <button id="sds-go-to-top" type="button" aria-label="Go to top" title="Go to top">
+
   <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+
     <path d="m6 11 6-6 6 6"></path>
+
     <path d="M12 5v14"></path>
+
   </svg>
+
   <span>TOP</span>
+
 </button>
+
 <script>
+
 (function () {
+
   const button = document.getElementById('sds-go-to-top');
+
   if (!button) return;
 
+
+
   function updateVisibility() {
+
     button.classList.toggle('is-visible', window.scrollY > 250);
+
   }
 
+
+
   button.addEventListener('click', function () {
+
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
     window.scrollTo({ top: 0, behavior: reduceMotion ? 'instant' : 'smooth' });
+
   });
 
+
+
   window.addEventListener('scroll', updateVisibility, { passive: true });
+
   updateVisibility();
+
 })();
+
 </script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
