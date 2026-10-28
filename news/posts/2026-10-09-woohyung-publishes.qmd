@@ -1,0 +1,27 @@
+---
+title: "New Publication in Geographical Analysis: Introducing ML-SAS"
+subtitle: "Woohyung Kim and Professor Sang-Il Lee introduce a machine-learning-based approach to spatial autocorrelation analysis."
+author: "GIS Lab"
+date: "2026-10-09"
+categories: [Website, Announcements]
+image: "images/woohyung-publication2.png"
+toc: false
+---
+
+![](images/woohyung-publication1.png)
+
+## New Publication in Geographical Analysis: Introducing ML-SAS
+
+We are pleased to announce that <span class="author-photo-hover" tabindex="0"><strong>Woohyung Kim</strong><span class="author-photo-popup"><img src="images/Kim.png" alt="Woohyung Kim"></span></span> and **Professor Sang-Il Lee** have published a paper in the international journal *Geographical Analysis*!
+
+Their paper, titled [**"ML-SAS: A Machine-Learning-Based Spatial Autocorrelation Statistic for Mixed-Type Data,"**](https://doi.org/10.1111/gean.70062) proposes a novel spatial autocorrelation statistic that integrates machine learning with spatial statistical analysis. By utilizing unsupervised random forests, the proposed method enables the joint analysis of continuous and categorical variables, offering a new approach to identifying complex spatial patterns. Through simulation experiments and an empirical application to Dutch municipalities, the study demonstrates the potential of ML-SAS for analyzing multivariate spatial relationships.
+
+We sincerely applaud their hard work and dedication throughout the research process. Congratulations once again to both authors on this wonderful achievement!
+
+^**Reference**^
+
+^Kim, W., and S.-I. Lee. 2026. “ML-SAS: A Machine-Learning-Based Spatial Autocorrelation Statistic for Mixed-Type Data.” *Geographical Analysis* 58, no. 4: e70062.^
+
+<div class="news-back-wrap">
+  <a href="../index.html" class="news-back-btn">← View all posts</a>
+</div>

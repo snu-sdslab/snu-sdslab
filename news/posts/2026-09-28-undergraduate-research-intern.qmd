@@ -1,0 +1,25 @@
+---
+title: "Welcoming Our New Undergraduate Research Intern"
+subtitle: "GIS Lab Welcomes Our Undergraduate Intern Yangseon Kim"
+author: "GIS Lab"
+date: "2026-09-28"
+categories: [Website, Announcements]
+image: "images/intern.jpg"
+toc: false
+---
+
+![](images/yangseon-Kim.png){fig-align="center" width="150"}
+
+## Welcoming Our New Undergraduate Research Intern 👨🏻‍💻📚
+
+We are pleased to welcome a new undergraduate research intern who will be joining the SDS Lab for the semester.
+
+Our new intern is **Yangseon Kim**, a student from the Class of 2024 in the Department of Geography Education at Seoul National University. He currently serves as the president of the undergraduate GIS academic society and has demonstrated diligence in a wide range of activities.
+
+We are delighted to have him join our lab and look forward to working and learning together throughout the semester.
+
+**Welcome to the GIS Lab, Yangseon!**
+
+<div class="news-back-wrap">
+  <a href="../index.html" class="news-back-btn">← View all posts</a>
+</div>

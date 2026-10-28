@@ -10,9 +10,12 @@ toc: false
 
 ![](images/webhome.png)
 
-## SDS Lab website Lanch
+## SDS Lab website Launch
 
 The updated website now presents a complete overview of our research in Spatial Data Science, GeoAI, GIS, and Geospatial Analytics, including detailed project descriptions, publications, and team information.
 
 We hope this platform will serve as a clear and professional representation of our research activities and future directions.
 
+<div class="news-back-wrap">
+  <a href="../index.html" class="news-back-btn">← View all posts</a>
+</div>

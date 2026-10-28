@@ -1,0 +1,27 @@
+---
+title: "The 2026 Winter Season Begins at Sook's Clam Hot Pot!🦪"
+subtitle: "Celebrating the End of Midterms with Good Food and Great Company"
+author: "GIS Lab"
+date: "2026-10-22"
+categories: [Website, Announcements]
+image: "images/2026clamhotpot1.jpg"
+toc: false
+---
+
+![](images/2026clamhotpot2.jpg){fig-align="center" width="581"}
+
+## The 2026 Winter Season Begins at "Sook's Clam Hot Pot"! 🦪
+
+Our 2026 winter season at **"Sook's Clam Hot Pot"** has officially begun!!
+
+To celebrate the end of the midterm exam for 'Spatial Data Analysis and Geography Education (Spatial Interaction Data Analysis)', our lab gathered for a well-deserved dinner together.
+
+The crisp autumn breeze, a steaming pot of clam hot pot, and exam papers finally out of our hands - three ingredients for a perfectly unforgettable harmony! 🍂
+
+Until we meet again for [**the FINAL EXAM...**]{style="color: red;"}
+
+To be continued!! 🤓💦
+
+<div class="news-back-wrap">
+  <a href="../index.html" class="news-back-btn">← View all posts</a>
+</div>

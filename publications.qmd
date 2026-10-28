@@ -6,7 +6,7 @@ page-layout: full
 ---
 
 ::: {.page-banner}
-![](images/publication.png){.page-banner-img alt="Publications"}
+![](images/publications.png){.page-banner-img alt="Publications"}
 :::
 
 
@@ -25,7 +25,6 @@ ML-SAS: A Machine-Learning-Based Spatial Autocorrelation Statistic for Mixed-Typ
 <span class="pub-tag">machine-learning-based similarity</span>
 <span class="pub-tag">multivariate and mixed-type data</span>
 <span class="pub-tag">spatial autocorrelation statistic</span>
-<span class="pub-tag">unsupervised random forests</span>
 </div>
 </div>
 
@@ -90,7 +89,6 @@ A Multi-Scale Analysis of Age-Specific Migration Unidirectionality in South Kore
 <div class="pub-tags">
 <span class="pub-tag">migration unidirectionality</span>
 <span class="pub-tag">ASMEI</span>
-<span class="pub-tag">multi-scale</span>
 <span class="pub-tag">population redistribution</span>
 </div>
 </div>
@@ -128,7 +126,6 @@ Spatiotemporal Structure of Education-Related Travel Patterns of Youth in Seoul 
 <div class="pub-tags">
 <span class="pub-tag">youth mobility</span>
 <span class="pub-tag">spatial interaction</span>
-<span class="pub-tag">private education facilities</span>
 <span class="pub-tag">flow SSD</span>
 <span class="pub-tag">dyadic PCA</span>
 </div>
@@ -148,7 +145,6 @@ A Case Study Using Seoul Living Mobility Data
 <span class="pub-tag">spatial interaction</span>
 <span class="pub-tag">Large Language Model</span>
 <span class="pub-tag">Seoul Living Mobility Data</span>
-<span class="pub-tag">GeoAI</span>
 </div>
 </div>
 
@@ -165,7 +161,6 @@ Regionalization of the Seoul Metropolitan Area Using Graph Transformer-Based Rep
 <span class="pub-tag">Graph Deep Learning</span>
 <span class="pub-tag">Graph Transformer</span>
 <span class="pub-tag">Spatially Constrained Clustering</span>
-<span class="pub-tag">Regionalization</span>
 </div>
 </div>
 
