@@ -95,7 +95,7 @@ A Multi-Scale Analysis of Age-Specific Migration Unidirectionality in South Kore
 
 <div class="pub-item">
 <div class="pub-title">
-<a href="https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART003188332" target="_blank" rel="noopener">
+<a href="http://doi.org/10.22776/kgs.2024.59.4.487" target="_blank" rel="noopener">
 The Variety and Complementarity of Migration Data in South Korea:
 A Comparison of Resident Register and Register-Based Census Data
 </a>
