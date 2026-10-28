@@ -5,6 +5,7 @@ author: "GIS Lab"
 date: "2025-06-28"
 categories: [Conference]
 image: "images/Hyemin_KGC1.png"
+toc: false
 ---
 
 ![](images/Hyemin_KGC2.png)
@@ -13,6 +14,6 @@ image: "images/Hyemin_KGC1.png"
 
 At the 2025 Korean Geography Conference held on June 27–28, our lab’s master’s degree candidate, Hyemin, presented her thesis titled “Regionalization of the Seoul Metropolitan Area Using Graph Transformer-Based Representation Learning and Spatially Constrained Clustering.” Congratulations to her, and we wish her all the best after graduation!
 
-<div class="news-back-wrap">
-  <a href="../index.html" class="news-back-btn">← View all posts</a>
-</div>
+::: news-back-wrap
+<a href="../index.html" class="news-back-btn">← View all posts</a>
+:::
