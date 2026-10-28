@@ -1,0 +1,26 @@
+---
+title: "A New Group Photo with Our Updated Lab Team! 📸"
+subtitle: "Capturing a New Moment Together"
+author: "GIS Lab"
+date: "2026-10-15"
+categories: [Website, Announcements]
+image: "images/labpeople1.jpg"
+toc: false
+---
+
+![](images/labpeople1.jpg){fig-align="center" width="470"}
+
+![](images/labpeople.jpg){fig-align="center" width="470"}
+
+![](images/labpeople2.png){fig-align="center" width="470"}
+
+
+## A New Group Photo with Our Updated Lab Team! 📸
+
+We took a new group photo with our updated lab members!
+
+It's lovely to see our lab looking so lively and full of people! ❤️
+
+<div class="news-back-wrap">
+  <a href="../index.html" class="news-back-btn">← View all posts</a>
+</div>
