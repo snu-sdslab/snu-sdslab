@@ -3,6 +3,8 @@ project:
   output-dir: docs
   resources:
     - images/
+    - fonts/
+    - google40db1e050dfb1397.html
 
 website:
   title: "SDS Lab"

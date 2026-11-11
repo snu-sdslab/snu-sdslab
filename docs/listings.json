@@ -12,7 +12,31 @@
     ]
   },
   {
+    "listing": "/index_fonts_edit.html",
+    "items": [
+      "/news/posts/2026-10-22-2026-Sook's-ClamHotPot.html",
+      "/news/posts/2026-10-15-new-group-photo.html",
+      "/news/posts/2026-10-09-woohyung-publishes.html",
+      "/news/posts/2026-09-28-undergraduate-research-intern.html",
+      "/news/posts/2026-02-28-SDS-Lab-Website-Release.html",
+      "/news/posts/2025-06-28-korean-geography-conference.html",
+      "/news/posts/2025-06-27-website-open.html"
+    ]
+  },
+  {
     "listing": "/index.html",
+    "items": [
+      "/news/posts/2026-10-22-2026-Sook's-ClamHotPot.html",
+      "/news/posts/2026-10-15-new-group-photo.html",
+      "/news/posts/2026-10-09-woohyung-publishes.html",
+      "/news/posts/2026-09-28-undergraduate-research-intern.html",
+      "/news/posts/2026-02-28-SDS-Lab-Website-Release.html",
+      "/news/posts/2025-06-28-korean-geography-conference.html",
+      "/news/posts/2025-06-27-website-open.html"
+    ]
+  },
+  {
+    "listing": "/index_original.html",
     "items": [
       "/news/posts/2026-10-22-2026-Sook's-ClamHotPot.html",
       "/news/posts/2026-10-15-new-group-photo.html",
