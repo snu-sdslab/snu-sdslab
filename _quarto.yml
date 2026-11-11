@@ -9,6 +9,7 @@ project:
 website:
   title: "SDS Lab"
   description: "SDS Lab of the Department of Geography Education, Seoul National University"
+  site-url: "https://snu-sdslab.snu.ac.kr"
   favicon: images/seoul.png
 
   navbar:
