@@ -1,6 +1,11 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "news/**/*.qmd"
+    - "!index_original.qmd"
+    - "!index_fonts_edit.qmd"
   resources:
     - images/
     - fonts/
