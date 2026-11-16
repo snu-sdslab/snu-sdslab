@@ -3,7 +3,7 @@ title: "SDS Lab Website Completed"
 subtitle: "Quarto-based Homepage Launch"
 author: "GIS Lab"
 date: "2026-02-28"
-categories: [Website, Announcements]
+categories: [Announcements]
 image: "images/webhome.png"
 toc: false
 ---

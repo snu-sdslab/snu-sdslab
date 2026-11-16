@@ -9,7 +9,7 @@
 <link>https://snu-sdslab.snu.ac.kr/news/</link>
 <atom:link href="https://snu-sdslab.snu.ac.kr/news/index.xml" rel="self" type="application/rss+xml"/>
 <description>SDS Lab of the Department of Geography Education, Seoul National University</description>
-<generator>quarto-1.10.18</generator>
+<generator>quarto-1.10.19</generator>
 <lastBuildDate>Wed, 21 Oct 2026 15:00:00 GMT</lastBuildDate>
 <item>
   <title>The 2026 Winter Season Begins at Sook’s Clam Hot Pot!🦪</title>
@@ -41,8 +41,7 @@
 </section>
 
  ]]></description>
-  <category>Website</category>
-  <category>Announcements</category>
+  <category>Lab Life</category>
   <guid>https://snu-sdslab.snu.ac.kr/news/posts/2026-10-22-2026-Sooks-ClamHotPot.html</guid>
   <pubDate>Wed, 21 Oct 2026 15:00:00 GMT</pubDate>
   <media:content url="https://snu-sdslab.snu.ac.kr/news/posts/images/2026clamhotpot1.jpg" medium="image" type="image/jpeg"/>
@@ -84,8 +83,7 @@
 </section>
 
  ]]></description>
-  <category>Website</category>
-  <category>Announcements</category>
+  <category>Lab Life</category>
   <guid>https://snu-sdslab.snu.ac.kr/news/posts/2026-10-15-new-group-photo.html</guid>
   <pubDate>Wed, 14 Oct 2026 15:00:00 GMT</pubDate>
   <media:content url="https://snu-sdslab.snu.ac.kr/news/posts/images/labpeople1.jpg" medium="image" type="image/jpeg"/>
@@ -116,8 +114,7 @@
 </section>
 
  ]]></description>
-  <category>Website</category>
-  <category>Announcements</category>
+  <category>Research &amp; Publications</category>
   <guid>https://snu-sdslab.snu.ac.kr/news/posts/2026-10-09-woohyung-publishes.html</guid>
   <pubDate>Thu, 08 Oct 2026 15:00:00 GMT</pubDate>
   <media:content url="https://snu-sdslab.snu.ac.kr/news/posts/images/woohyung-publication2.png" medium="image" type="image/png" height="81" width="144"/>
@@ -151,8 +148,7 @@
 </section>
 
  ]]></description>
-  <category>Website</category>
-  <category>Announcements</category>
+  <category>People &amp; Milestones</category>
   <guid>https://snu-sdslab.snu.ac.kr/news/posts/2026-09-28-undergraduate-research-intern.html</guid>
   <pubDate>Sun, 27 Sep 2026 15:00:00 GMT</pubDate>
   <media:content url="https://snu-sdslab.snu.ac.kr/news/posts/images/intern.jpg" medium="image" type="image/jpeg"/>
@@ -180,7 +176,6 @@
 </section>
 
  ]]></description>
-  <category>Website</category>
   <category>Announcements</category>
   <guid>https://snu-sdslab.snu.ac.kr/news/posts/2026-02-28-SDS-Lab-Website-Release.html</guid>
   <pubDate>Fri, 27 Feb 2026 15:00:00 GMT</pubDate>
@@ -208,7 +203,7 @@
 </section>
 
  ]]></description>
-  <category>Conference</category>
+  <category>Research &amp; Publications</category>
   <guid>https://snu-sdslab.snu.ac.kr/news/posts/2025-06-28-korean-geography-conference.html</guid>
   <pubDate>Fri, 27 Jun 2025 15:00:00 GMT</pubDate>
   <media:content url="https://snu-sdslab.snu.ac.kr/news/posts/images/Hyemin_KGC1.png" medium="image" type="image/png" height="108" width="144"/>
@@ -235,7 +230,6 @@
 </section>
 
  ]]></description>
-  <category>Website</category>
   <category>Announcements</category>
   <guid>https://snu-sdslab.snu.ac.kr/news/posts/2025-06-27-website-open.html</guid>
   <pubDate>Thu, 26 Jun 2025 15:00:00 GMT</pubDate>

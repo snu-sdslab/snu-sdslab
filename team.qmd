@@ -236,12 +236,64 @@ document.addEventListener("DOMContentLoaded", function () {
 
 ## Alumni
 
-### Recent Graduates
 
-- **Hyekyeong Nam (M.A., 2026)**
-- **Woohyung Kim (M.A., 2026)**
-- **Hyemin Jeon (M.A., 2025)**
-- **Sechang Kim (M.A., 2023)**: Ph.D. Student at University of Washington
+<style>
+/* Alumni: 이름과 졸업 정보 정렬 */
+.alumni-list .alumni-entry {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  align-items: baseline;
+  column-gap: 12px;
+}
+
+.alumni-list .alumni-name {
+  font-weight: 700;
+}
+
+.alumni-list .alumni-degree {
+  font-weight: 700;
+}
+
+/* 모바일 화면 대응 */
+@media (max-width: 520px) {
+  .alumni-list .alumni-entry {
+    grid-template-columns: 135px minmax(0, 1fr);
+    column-gap: 8px;
+  }
+}
+</style>
+
+<ul class="alumni-list">
+  <li><div class="alumni-entry"><span class="alumni-name">Hyekyeong Nam</span><span class="alumni-degree">(M.A., 2026)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Woohyung Kim</span><span class="alumni-degree">(M.A., 2026)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Hyemin Jeon</span><span class="alumni-degree">(M.A., 2025)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Sechang Kim</span><span><strong>(M.A., 2023)</strong>: Ph.D. Student at University of Washington</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Yongmin Kim</span><span class="alumni-degree">(M.A., 2022)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Dong-han You</span><span class="alumni-degree">(M.A., 2022)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Jihee Park</span><span class="alumni-degree">(M.A., 2007; Ph.D., 2021)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Soyoung Lee</span><span class="alumni-degree">(Ph.D., 2020)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Lei Zhu</span><span class="alumni-degree">(Ph.D., 2019)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Changwoo Jeon</span><span class="alumni-degree">(M.A., 2017)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Nam-Seung Lee</span><span class="alumni-degree">(M.A., 2016)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Changho Lee</span><span class="alumni-degree">(M.A., 2015)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Jong-il Lee</span><span class="alumni-degree">(M.A., 2013)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Mong-hyeon Lee</span><span class="alumni-degree">(M.A., 2012)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Young JaeGal</span><span class="alumni-degree">(M.A., 2012)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Jin-hyuk Kim</span><span class="alumni-degree">(M.A., 2011)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Doe-seung Choi</span><span class="alumni-degree">(M.A., 2011)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Gyeongmo Choo</span><span class="alumni-degree">(M.A., 2011)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Hyeongmo Koo</span><span class="alumni-degree">(M.A., 2010)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Yongha Park</span><span class="alumni-degree">(M.A., 2010)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Hyo-jin Kim</span><span class="alumni-degree">(M.A., 2008)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Yu-jung Lee</span><span class="alumni-degree">(M.A., 2008)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">E-bin Cho</span><span class="alumni-degree">(M.A., 2008)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Ji-eun Han</span><span class="alumni-degree">(M.A., 2002; Ph.D., 2008)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Jaehyun Kim</span><span class="alumni-degree">(M.A., 2007)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Kyung-sun Lee</span><span class="alumni-degree">(M.A., 2007)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Daeheon Cho</span><span class="alumni-degree">(M.A., 2001; Ph.D., 2007)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Tae-ho Kim</span><span class="alumni-degree">(M.A., 2004)</span></div></li>
+  <li><div class="alumni-entry"><span class="alumni-name">Jae-youl Lee</span><span class="alumni-degree">(M.A., 2001)</span></div></li>
+</ul>
 
 
 ## Join Our Lab

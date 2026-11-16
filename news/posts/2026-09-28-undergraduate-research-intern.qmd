@@ -3,7 +3,7 @@ title: "Welcoming Our New Undergraduate Research Intern"
 subtitle: "GIS Lab Welcomes Our Undergraduate Intern Yangseon Kim"
 author: "GIS Lab"
 date: "2026-09-28"
-categories: [Website, Announcements]
+categories: [People & Milestones]
 image: "images/intern.jpg"
 toc: false
 ---
@@ -20,6 +20,6 @@ We are delighted to have him join our lab and look forward to working and learni
 
 **Welcome to the GIS Lab, Yangseon!**
 
-<div class="news-back-wrap">
-  <a href="../index.html" class="news-back-btn">← View all posts</a>
-</div>
+::: news-back-wrap
+<a href="../index.html" class="news-back-btn">← View all posts</a>
+:::

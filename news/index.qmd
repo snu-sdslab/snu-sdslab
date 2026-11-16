@@ -1,10 +1,13 @@
+
 ---
 title: "News"
 title-block: false
 listing:
+  id: news-post-list
   contents: posts
   sort: "date desc"
   type: default
+  categories: numbered
   sort-ui: false
   filter-ui: false
   page-size: 10
@@ -16,11 +19,273 @@ page-layout: full
 ![](images/news.png){.page-banner-img alt="news"}
 :::
 
-
 ::: {.content-summary}
 Check out the latest news and major updates from our lab!
 :::
 
 ---
 
-<!-- Posts from the posts/ directory will be automatically displayed below -->
+<!-- News listing and category layout -->
+
+::: {.news-layout}
+
+::: {.news-posts}
+
+::: {#news-post-list}
+:::
+
+:::
+
+::: {.news-category-panel}
+<div id="news-category-target"></div>
+:::
+
+:::
+
+<style>
+
+/* ========================================
+   News Page - Categories Layout
+   ======================================== */
+
+/* 기본 Quarto 카테고리 사이드바 숨김 */
+#quarto-margin-sidebar {
+  display: none !important;
+}
+
+/* 배너 영역과 목록 영역은 독립적으로 유지 */
+#quarto-document-content {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+}
+
+/* 목록 + 카테고리의 2열 구조 */
+.news-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 230px;
+  column-gap: 32px;
+  align-items: start;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* 글 목록 */
+.news-posts {
+  min-width: 0;
+}
+
+/* 우측 카테고리 */
+.news-category-panel {
+  min-width: 0;
+}
+
+.news-category-panel .quarto-listing-category-title {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.news-category-panel .quarto-listing-category {
+  width: 100%;
+}
+
+/* 카테고리 필터 항목 */
+.news-category-panel .category {
+  cursor: pointer;
+}
+
+/* ========================================
+   Category labels in post metadata
+   ======================================== */
+
+/* 본문에서 이동된 카테고리 */
+.news-layout .quarto-post .metadata .listing-categories {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  margin-top: 12px;
+  min-width: 0;
+}
+
+/* 카테고리 버튼 */
+.news-layout .quarto-post .metadata .listing-category {
+  display: inline-block;
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  cursor: pointer;
+}
+
+/* ========================================
+   Responsive - Tablet and Mobile
+   ======================================== */
+
+@media (max-width: 900px) {
+
+  /* 카테고리를 글 목록 위에 배치 */
+  .news-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 22px;
+  }
+
+  .news-category-panel {
+    grid-row: 1;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .news-posts {
+    grid-row: 2;
+    width: 100%;
+  }
+
+  /* 카테고리 제목 */
+  .news-category-panel .quarto-listing-category-title {
+    margin-bottom: 10px;
+  }
+
+  /* 가로 스크롤 가능한 카테고리 메뉴 */
+  .news-category-panel .quarto-listing-category {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 4px 0 12px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+  }
+
+  /* 카테고리 항목의 터치 영역 */
+  .news-category-panel .category {
+    flex: 0 0 auto;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    padding: 8px 12px;
+    border-radius: 10px;
+  }
+
+  /* 게시글의 날짜, 작성자, 카테고리 유지 */
+  .news-layout .quarto-post .metadata {
+    display: block;
+  }
+
+}
+
+
+/* ========================================
+   News Page - Restore Full Width
+   ======================================== */
+
+/* Quarto가 남겨둔 우측 사이드바 공간까지
+   메인 콘텐츠 영역을 확장 */
+#quarto-content > main.content {
+  grid-column: page-start / page-end !important;
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+}
+
+/* 기존 배너와 콘텐츠 영역의 너비 유지 */
+#quarto-document-content {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+}
+
+/* 목록과 카테고리 영역이 전체 너비를 사용 */
+.news-layout {
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+}
+
+</style>
+
+<script>
+(function () {
+  "use strict";
+
+  function setupNewsLayout() {
+
+    /* ------------------------------------
+       1. 기본 사이드바의 카테고리 이동
+       ------------------------------------ */
+
+    const target = document.getElementById(
+      "news-category-target"
+    );
+
+    const sidebar = document.getElementById(
+      "quarto-margin-sidebar"
+    );
+
+    if (target && sidebar) {
+
+      const title = sidebar.querySelector(
+        ".quarto-listing-category-title"
+      );
+
+      const categories = sidebar.querySelector(
+        ".quarto-listing-category"
+      );
+
+      if (title && title.parentElement !== target) {
+        target.appendChild(title);
+      }
+
+      if (categories && categories.parentElement !== target) {
+        target.appendChild(categories);
+      }
+
+    }
+
+    /* ------------------------------------
+       2. 게시글별 카테고리 위치 이동
+       ------------------------------------ */
+
+    const posts = document.querySelectorAll(
+      ".news-layout .quarto-post"
+    );
+
+    posts.forEach(function (post) {
+
+      const categories = post.querySelector(
+        ".body > .listing-categories"
+      );
+
+      const metadata = post.querySelector(
+        ".metadata"
+      );
+
+      if (!categories || !metadata) {
+        return;
+      }
+
+      /* 날짜와 작성자 뒤에 카테고리 추가 */
+      metadata.appendChild(categories);
+
+    });
+
+  }
+
+  /* DOM 생성 완료 후 실행 */
+  if (document.readyState === "loading") {
+
+    document.addEventListener(
+      "DOMContentLoaded",
+      setupNewsLayout
+    );
+
+  } else {
+
+    setupNewsLayout();
+
+  }
+
+})();
+</script>

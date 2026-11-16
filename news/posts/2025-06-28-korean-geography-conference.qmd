@@ -3,7 +3,7 @@ title: "The 2025 Korean Geography Conference"
 subtitle: "Hyemin presented her Master's Thesis at Conference!"
 author: "GIS Lab"
 date: "2025-06-28"
-categories: [Conference]
+categories: [Research & Publications]
 image: "images/Hyemin_KGC1.png"
 toc: false
 ---

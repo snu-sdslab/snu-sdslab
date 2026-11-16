@@ -3,7 +3,7 @@ title: "The 2026 Winter Season Begins at Sook's Clam Hot Pot!🦪"
 subtitle: "Celebrating the End of Midterms with Good Food and Great Company"
 author: "GIS Lab"
 date: "2026-10-22"
-categories: [Website, Announcements]
+categories: [Lab Life]
 image: "images/2026clamhotpot1.jpg"
 toc: false
 ---
