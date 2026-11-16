@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -45,9 +45,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-ddade4a43513af6a39879043cc1ed658.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
@@ -83,20 +83,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-news-post-list .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-news-post-list'] = new List('listing-news-post-list', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -363,11 +363,11 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="QW5ub3VuY2VtZW50cw==">Announcements <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TGFiJTIwTGlmZQ==">Lab Life <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UGVvcGxlJTIwJTI2JTIwTWlsZXN0b25lcw==">People &amp; Milestones <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVzZWFyY2glMjAlMjYlMjBQdWJsaWNhdGlvbnM=">Research &amp; Publications <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -377,7 +377,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -396,14 +396,12 @@ window.Quarto = {
 <p>Check out the latest news and major updates from our lab!</p>
 </div>
 <hr>
-<!-- Posts from the posts/ directory will be automatically displayed below -->
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<!-- News listing and category layout -->
+<div class="news-layout">
+<div class="news-posts">
+<div id="listing-news-post-list" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="V2Vic2l0ZSUyQ0Fubm91bmNlbWVudHM=" data-listing-date-sort="1792594800000" data-listing-file-modified-sort="1793172797156" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
+<div class="quarto-post image-right" data-index="0" data-categories="TGFiJTIwTGlmZQ==" data-listing-date-sort="1792594800000" data-listing-file-modified-sort="1794793113802" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
 <div class="thumbnail"><a href="../news/posts/2026-10-22-2026-Sooks-ClamHotPot.html" class="no-external">
 
 <img loading="lazy" src="../news/posts/images/2026clamhotpot1.jpg" class="thumbnail-image">
@@ -415,6 +413,11 @@ window.Quarto = {
 </h3>
 <div class="listing-subtitle">
 <a href="../news/posts/2026-10-22-2026-Sooks-ClamHotPot.html" class="no-external">Celebrating the End of Midterms with Good Food and Great Company</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('TGFiJTIwTGlmZQ=='); return false;">Lab Life</div>
+
 </div>
 <div class="delink listing-description"><a href="../news/posts/2026-10-22-2026-Sooks-ClamHotPot.html" class="no-external">
 Our 2026 winter season at <strong>“Sook’s Clam Hot Pot”</strong> has officially begun!!
@@ -431,7 +434,7 @@ GIS Lab
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="V2Vic2l0ZSUyQ0Fubm91bmNlbWVudHM=" data-listing-date-sort="1791990000000" data-listing-file-modified-sort="1793172797147" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
+<div class="quarto-post image-right" data-index="1" data-categories="TGFiJTIwTGlmZQ==" data-listing-date-sort="1791990000000" data-listing-file-modified-sort="1794793113781" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
 <div class="thumbnail"><a href="../news/posts/2026-10-15-new-group-photo.html" class="no-external">
 
 <img loading="lazy" src="../news/posts/images/labpeople1.jpg" class="thumbnail-image">
@@ -443,6 +446,11 @@ GIS Lab
 </h3>
 <div class="listing-subtitle">
 <a href="../news/posts/2026-10-15-new-group-photo.html" class="no-external">Capturing a New Moment Together</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('TGFiJTIwTGlmZQ=='); return false;">Lab Life</div>
+
 </div>
 <div class="delink listing-description"><a href="../news/posts/2026-10-15-new-group-photo.html" class="no-external">
 We took a new group photo with our updated lab members!
@@ -459,7 +467,7 @@ GIS Lab
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="V2Vic2l0ZSUyQ0Fubm91bmNlbWVudHM=" data-listing-date-sort="1791471600000" data-listing-file-modified-sort="1793172797139" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="130">
+<div class="quarto-post image-right" data-index="2" data-categories="UmVzZWFyY2glMjAlMjYlMjBQdWJsaWNhdGlvbnM=" data-listing-date-sort="1791471600000" data-listing-file-modified-sort="1794793113756" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="130">
 <div class="thumbnail"><a href="../news/posts/2026-10-09-woohyung-publishes.html" class="no-external">
 
 <img loading="lazy" src="../news/posts/images/woohyung-publication2.png" class="thumbnail-image">
@@ -471,6 +479,11 @@ GIS Lab
 </h3>
 <div class="listing-subtitle">
 <a href="../news/posts/2026-10-09-woohyung-publishes.html" class="no-external">Woohyung Kim and Professor Sang-Il Lee introduce a machine-learning-based approach to spatial autocorrelation analysis.</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmVzZWFyY2glMjAlMjYlMjBQdWJsaWNhdGlvbnM='); return false;">Research &amp; Publications</div>
+
 </div>
 <div class="delink listing-description"><a href="../news/posts/2026-10-09-woohyung-publishes.html" class="no-external">
 We are pleased to announce that <span class="author-photo-hover" tabindex="0"><strong>Woohyung Kim</strong><span class="author-photo-popup"></span></span> and <strong>Professor Sang-Il Lee</strong> have published a paper in the international journal <em>Geographical Analysis</em>!
@@ -487,7 +500,7 @@ GIS Lab
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="V2Vic2l0ZSUyQ0Fubm91bmNlbWVudHM=" data-listing-date-sort="1790521200000" data-listing-file-modified-sort="1793172797130" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="97">
+<div class="quarto-post image-right" data-index="3" data-categories="UGVvcGxlJTIwJTI2JTIwTWlsZXN0b25lcw==" data-listing-date-sort="1790521200000" data-listing-file-modified-sort="1794793113732" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="95">
 <div class="thumbnail"><a href="../news/posts/2026-09-28-undergraduate-research-intern.html" class="no-external">
 
 <img loading="lazy" src="../news/posts/images/intern.jpg" class="thumbnail-image">
@@ -499,6 +512,11 @@ GIS Lab
 </h3>
 <div class="listing-subtitle">
 <a href="../news/posts/2026-09-28-undergraduate-research-intern.html" class="no-external">GIS Lab Welcomes Our Undergraduate Intern Yangseon Kim</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UGVvcGxlJTIwJTI2JTIwTWlsZXN0b25lcw=='); return false;">People &amp; Milestones</div>
+
 </div>
 <div class="delink listing-description"><a href="../news/posts/2026-09-28-undergraduate-research-intern.html" class="no-external">
 We are pleased to welcome a new undergraduate research intern who will be joining the SDS Lab for the semester.
@@ -515,7 +533,7 @@ GIS Lab
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="V2Vic2l0ZSUyQ0Fubm91bmNlbWVudHM=" data-listing-date-sort="1772204400000" data-listing-file-modified-sort="1793172797121" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
+<div class="quarto-post image-right" data-index="4" data-categories="QW5ub3VuY2VtZW50cw==" data-listing-date-sort="1772204400000" data-listing-file-modified-sort="1794793113706" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
 <div class="thumbnail"><a href="../news/posts/2026-02-28-SDS-Lab-Website-Release.html" class="no-external">
 
 <img loading="lazy" src="../news/posts/images/webhome.png" class="thumbnail-image">
@@ -527,6 +545,11 @@ GIS Lab
 </h3>
 <div class="listing-subtitle">
 <a href="../news/posts/2026-02-28-SDS-Lab-Website-Release.html" class="no-external">Quarto-based Homepage Launch</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QW5ub3VuY2VtZW50cw=='); return false;">Announcements</div>
+
 </div>
 <div class="delink listing-description"><a href="../news/posts/2026-02-28-SDS-Lab-Website-Release.html" class="no-external">
 The updated website now presents a complete overview of our research in Spatial Data Science, GeoAI, GIS, and Geospatial Analytics, including detailed project descriptions…
@@ -543,7 +566,7 @@ GIS Lab
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="Q29uZmVyZW5jZQ==" data-listing-date-sort="1751036400000" data-listing-file-modified-sort="1793174784397" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="53">
+<div class="quarto-post image-right" data-index="5" data-categories="UmVzZWFyY2glMjAlMjYlMjBQdWJsaWNhdGlvbnM=" data-listing-date-sort="1751036400000" data-listing-file-modified-sort="1794793113677" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="53">
 <div class="thumbnail"><a href="../news/posts/2025-06-28-korean-geography-conference.html" class="no-external">
 
 <img loading="lazy" src="../news/posts/images/Hyemin_KGC1.png" class="thumbnail-image">
@@ -555,6 +578,11 @@ GIS Lab
 </h3>
 <div class="listing-subtitle">
 <a href="../news/posts/2025-06-28-korean-geography-conference.html" class="no-external">Hyemin presented her Master’s Thesis at Conference!</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmVzZWFyY2glMjAlMjYlMjBQdWJsaWNhdGlvbnM='); return false;">Research &amp; Publications</div>
+
 </div>
 <div class="delink listing-description"><a href="../news/posts/2025-06-28-korean-geography-conference.html" class="no-external">
 At the 2025 Korean Geography Conference held on June 27–28, our lab’s master’s degree candidate, Hyemin, presented her thesis titled “Regionalization of the Seoul…
@@ -571,7 +599,7 @@ GIS Lab
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="V2Vic2l0ZSUyQ0Fubm91bmNlbWVudHM=" data-listing-date-sort="1750950000000" data-listing-file-modified-sort="1793172797103" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+<div class="quarto-post image-right" data-index="6" data-categories="QW5ub3VuY2VtZW50cw==" data-listing-date-sort="1750950000000" data-listing-file-modified-sort="1794793113652" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
 <div class="thumbnail"><a href="../news/posts/2025-06-27-website-open.html" class="no-external">
 
 <img loading="lazy" src="../news/posts/images/main_header.png" class="thumbnail-image">
@@ -583,6 +611,11 @@ GIS Lab
 </h3>
 <div class="listing-subtitle">
 <a href="../news/posts/2025-06-27-website-open.html" class="no-external">New Quarto-based Homepage Launch</a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QW5ub3VuY2VtZW50cw=='); return false;">Announcements</div>
+
 </div>
 <div class="delink listing-description"><a href="../news/posts/2025-06-27-website-open.html" class="no-external">
 Hello! The SNU GIS Lab website has been newly launched.
@@ -601,7 +634,265 @@ GIS Lab
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</div>
+</div>
+<div class="news-category-panel">
+<div id="news-category-target">
+
+</div>
+</div>
+</div>
+<style>
+
+/* ========================================
+   News Page - Categories Layout
+   ======================================== */
+
+/* 기본 Quarto 카테고리 사이드바 숨김 */
+#quarto-margin-sidebar {
+  display: none !important;
+}
+
+/* 배너 영역과 목록 영역은 독립적으로 유지 */
+#quarto-document-content {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+}
+
+/* 목록 + 카테고리의 2열 구조 */
+.news-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 230px;
+  column-gap: 32px;
+  align-items: start;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* 글 목록 */
+.news-posts {
+  min-width: 0;
+}
+
+/* 우측 카테고리 */
+.news-category-panel {
+  min-width: 0;
+}
+
+.news-category-panel .quarto-listing-category-title {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.news-category-panel .quarto-listing-category {
+  width: 100%;
+}
+
+/* 카테고리 필터 항목 */
+.news-category-panel .category {
+  cursor: pointer;
+}
+
+/* ========================================
+   Category labels in post metadata
+   ======================================== */
+
+/* 본문에서 이동된 카테고리 */
+.news-layout .quarto-post .metadata .listing-categories {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  margin-top: 12px;
+  min-width: 0;
+}
+
+/* 카테고리 버튼 */
+.news-layout .quarto-post .metadata .listing-category {
+  display: inline-block;
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  cursor: pointer;
+}
+
+/* ========================================
+   Responsive - Tablet and Mobile
+   ======================================== */
+
+@media (max-width: 900px) {
+
+  /* 카테고리를 글 목록 위에 배치 */
+  .news-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 22px;
+  }
+
+  .news-category-panel {
+    grid-row: 1;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .news-posts {
+    grid-row: 2;
+    width: 100%;
+  }
+
+  /* 카테고리 제목 */
+  .news-category-panel .quarto-listing-category-title {
+    margin-bottom: 10px;
+  }
+
+  /* 가로 스크롤 가능한 카테고리 메뉴 */
+  .news-category-panel .quarto-listing-category {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 4px 0 12px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+  }
+
+  /* 카테고리 항목의 터치 영역 */
+  .news-category-panel .category {
+    flex: 0 0 auto;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    padding: 8px 12px;
+    border-radius: 10px;
+  }
+
+  /* 게시글의 날짜, 작성자, 카테고리 유지 */
+  .news-layout .quarto-post .metadata {
+    display: block;
+  }
+
+}
+
+
+/* ========================================
+   News Page - Restore Full Width
+   ======================================== */
+
+/* Quarto가 남겨둔 우측 사이드바 공간까지
+   메인 콘텐츠 영역을 확장 */
+#quarto-content > main.content {
+  grid-column: page-start / page-end !important;
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+}
+
+/* 기존 배너와 콘텐츠 영역의 너비 유지 */
+#quarto-document-content {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+}
+
+/* 목록과 카테고리 영역이 전체 너비를 사용 */
+.news-layout {
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+}
+
+</style>
+<script>
+(function () {
+  "use strict";
+
+  function setupNewsLayout() {
+
+    /* ------------------------------------
+       1. 기본 사이드바의 카테고리 이동
+       ------------------------------------ */
+
+    const target = document.getElementById(
+      "news-category-target"
+    );
+
+    const sidebar = document.getElementById(
+      "quarto-margin-sidebar"
+    );
+
+    if (target && sidebar) {
+
+      const title = sidebar.querySelector(
+        ".quarto-listing-category-title"
+      );
+
+      const categories = sidebar.querySelector(
+        ".quarto-listing-category"
+      );
+
+      if (title && title.parentElement !== target) {
+        target.appendChild(title);
+      }
+
+      if (categories && categories.parentElement !== target) {
+        target.appendChild(categories);
+      }
+
+    }
+
+    /* ------------------------------------
+       2. 게시글별 카테고리 위치 이동
+       ------------------------------------ */
+
+    const posts = document.querySelectorAll(
+      ".news-layout .quarto-post"
+    );
+
+    posts.forEach(function (post) {
+
+      const categories = post.querySelector(
+        ".body > .listing-categories"
+      );
+
+      const metadata = post.querySelector(
+        ".metadata"
+      );
+
+      if (!categories || !metadata) {
+        return;
+      }
+
+      /* 날짜와 작성자 뒤에 카테고리 추가 */
+      metadata.appendChild(categories);
+
+    });
+
+  }
+
+  /* DOM 생성 완료 후 실행 */
+  if (document.readyState === "loading") {
+
+    document.addEventListener(
+      "DOMContentLoaded",
+      setupNewsLayout
+    );
+
+  } else {
+
+    setupNewsLayout();
+
+  }
+
+})();
+</script>
+
+
+
+
+</main> <!-- /main -->
 <!-- SDS LAB: global Go to Top button -->
 
 <button id="sds-go-to-top" type="button" aria-label="Go to top" title="Go to top">

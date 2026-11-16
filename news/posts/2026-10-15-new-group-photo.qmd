@@ -3,7 +3,7 @@ title: "A New Group Photo with Our Updated Lab Team! 📸"
 subtitle: "Capturing a New Moment Together"
 author: "GIS Lab"
 date: "2026-10-15"
-categories: [Website, Announcements]
+categories: [Lab Life]
 image: "images/labpeople1.jpg"
 toc: false
 ---

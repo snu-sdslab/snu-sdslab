@@ -3,7 +3,7 @@ title: "GIS Lab Website Opened!"
 subtitle: "New Quarto-based Homepage Launch"
 author: "GIS Lab"
 date: "2025-06-27"
-categories: [Website, Announcements]
+categories: [Announcements]
 image: "images/main_header.png"
 toc: false
 ---

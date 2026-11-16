@@ -3,7 +3,7 @@ title: "New Publication in Geographical Analysis: Introducing ML-SAS"
 subtitle: "Woohyung Kim and Professor Sang-Il Lee introduce a machine-learning-based approach to spatial autocorrelation analysis."
 author: "GIS Lab"
 date: "2026-10-09"
-categories: [Website, Announcements]
+categories: [Research & Publications]
 image: "images/woohyung-publication2.png"
 toc: false
 ---
